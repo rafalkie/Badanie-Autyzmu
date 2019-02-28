@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent2"
+    tools:context="com.example.rafalkie.projekt.MainActivity">
+
+
+    <TextView
+        android:id="@+id/pytanie"
+        android:layout_width="344dp"
+        android:layout_height="151dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="47dp"
+        android:gravity="center_vertical"
+        android:text="javax.xml.soap.Text View"
+        android:textAlignment="center"
+        android:textColor="@color/pole_teskt"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/bialy"
+        android:onClick="btn9"
+        android:text="Button"
+        android:textColor="@color/teskt_btn"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/odp_nr">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:layout_row="2"
+            android:background="@color/teskt_btn6"
+            android:onClick="btn4"
+            android:text="Button"
+            android:textColor="@color/teskt_btn"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_margin="5dp"
+            android:layout_row="1"
+            android:background="@color/teskt_btn6"
+            android:onClick="btn6"
+            android:text="Button"
+            android:textColor="@color/teskt_btn"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_margin="5dp"
+            android:layout_row="2"
+            android:background="@color/teskt_btn3"
+            android:onClick="btn7"
+            android:text="Button"
+            android:textColor="@color/teskt_btn"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:layout_row="3"
+            android:background="@color/teskt_btn3"
+            android:onClick="btn5"
+            android:text="Button"
+            android:textColor="@color/teskt_btn"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:layout_row="1"
+            android:background="@color/teskt_btn3"
+            android:onClick="btn3"
+            android:textColor="@color/teskt_btn"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_margin="5dp"
+            android:layout_row="3"
+            android:background="@color/teskt_btn6"
+            android:onClick="btn8"
+            android:text="Button"
+            android:textColor="@color/teskt_btn"
+            android:textStyle="bold" />
+
+    </GridLayout>
+
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:layout_width="305dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.823">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/bialy"
+            android:onClick="btn2"
+            android:padding="14dp"
+            android:text="Button"
+            android:textColor="@color/teskt_btn"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="12dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:background="@color/bialy"
+            android:keepScreenOn="@color/colorAccent"
+            android:onClick="btn1"
+            android:padding="14dp"
+            android:text="Button"
+            android:textColor="@color/teskt_btn"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteY="13dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/odp_nr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Twoja odpowiedź: nie wybrano"
+        android:textColor="@color/pole_teskt"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="329dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pytanie">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:background="@android:drawable/ic_media_rew"
+            android:onClick="back"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteY="162dp" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:background="@android:drawable/ic_media_ff"
+            android:onClick="next"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="162dp" />
+
+        <TextView
+            android:id="@+id/nr"
+            android:layout_width="154dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Pytanie 1 z 32"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintLeft_toRightOf="@+id/back"
+            tools:layout_editor_absoluteY="178dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="31dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>

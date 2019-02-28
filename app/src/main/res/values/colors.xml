@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#16688e</color>
+    <color name="colorPrimaryDark">#c4c7c4</color>
+    <color name="colorAccent">#0e0e0e</color>
+    <color name="bialy">#16688f</color>
+    <color name="pole_teskt">#3e3e3e</color>
+    <color name="teskt_btn">#fffcfc</color>
+    <color name="teskt_btn1">#b97f7f</color>
+    <color name="teskt_btn2">#a15b5b</color>
+    <color name="teskt_btn3">#8b3a3a</color>
+    <color name="teskt_btn4">#efd657</color>
+    <color name="teskt_btn6">#16688d</color>
+    <color name="colorAccent2">#eae9e9</color>
+    <color name="table_view">#6c6c6c</color>
+    <color name="menu">#469dc6</color>
+    <color name="menu_2">#62b3d9</color>
+    <color name="tekst_edit">#d9e5e8</color>
+</resources>

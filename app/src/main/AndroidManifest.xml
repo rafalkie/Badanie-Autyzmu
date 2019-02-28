@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rafalkie.projekt">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Ankieta"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".Activity_Pytania"
+            android:label="Wybierz pytanie do edycji"
+            android:parentActivityName=".MainActivity2" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Activity_Pytania" />
+        //////////////////////////////////////////////////////////////////
+        <activity
+            android:name=".Activity_Pytania_edit"
+            android:label="Edycja pytania"
+            android:parentActivityName=".Activity_Pytania" />
+        <activity
+            android:name=".Activity_add_pytanie"
+            android:label="Dodaj pytanie"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".show_ankiety"
+            android:label="Wybierz ankiete"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".Show_ankieta_view"
+            android:label="Wybrana ankieta"
+            android:parentActivityName=".show_ankiety"/>
+        <activity android:name=".Ustawienia"
+            android:label="Ustawienia"
+            android:parentActivityName=".MainActivity2">
+        </activity>
+    </application>
+
+</manifest>
